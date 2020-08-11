@@ -1,0 +1,43 @@
+.navbar {
+  background-image: linear-gradient(
+    rgba(80, 13, 13, .9),
+    rgb(18, 48, 18),
+    rgb(37, 30, 63),
+    rgb(71, 67, 52, .9)
+  );
+}
+
+.sticky-nav {
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+}
+
+.nav-title {
+  font-size: 2.5vw;
+  font-weight: 1000;
+  background: -webkit-linear-gradient(
+    rgb(145, 145, 145),
+    rgb(141, 141, 141),
+    rgb(95, 95, 95),
+    rgb(68, 68, 68)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0.25vw;
+  margin-left: 12vw;
+}
+
+.nav-link {
+  font-size: 1.5vw;
+  font-weight: 850;
+  background: -webkit-linear-gradient(
+    rgb(161, 161, 161),
+    rgb(128, 128, 128),
+    rgb(102, 102, 102),
+    rgb(87, 87, 87)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 1vw;
+}

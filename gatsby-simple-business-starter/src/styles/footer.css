@@ -1,0 +1,11 @@
+.policy-links {
+    background: -webkit-linear-gradient(
+    rgb(0, 140, 255),
+    rgb(0, 17, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: 1.5vw;
+  margin-left: 6vw;
+}
