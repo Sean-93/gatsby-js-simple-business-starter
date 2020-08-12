@@ -10,7 +10,18 @@ export default function NotFoundPage() {
     <Layout>
       <div>
         <Helmet>
-         
+          <meta charset="utf-8" />
+          {/* <link rel="icon" href={} type="image/gif" sizes="16x16"></link> */}
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="theme-color" content="#000000" />
+          <meta
+            name="description"
+            content="This page does not exist."
+            name="author"
+            content="Sean Rooney"
+          />
+          <title>404</title>
+          <link rel="canonical" href="http://mysite.com/example" />
         </Helmet>
         <Container>
           <Row>

@@ -7,7 +7,7 @@ import "../styles/general-styles.css"
 export default function Footer() {
   return (
     <div>
-      <footer className="sunxtreme-footer">
+      <footer className="page-footer">
         <Container>
           <Row>
             <Col>

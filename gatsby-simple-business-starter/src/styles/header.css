@@ -1,3 +1,16 @@
+
+.page-header {
+    min-height: 200px;
+    background: linear-gradient(
+      rgb(112, 112, 112),
+      rgb(150, 150, 150),
+      rgb(182, 182, 182),
+      rgb(206, 206, 206),
+      rgb(228, 228, 228),
+      rgb(255, 255, 255)
+    );
+  }
+
 @media only screen and (max-width: 1500px) {
 }
 @media only screen and (max-width: 1200px) {

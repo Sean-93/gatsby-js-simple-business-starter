@@ -1,5 +1,5 @@
 import React from "react"
-import { Row, Col } from "react-bootstrap"
+import { Row, Col, Jumbotron, Container } from "react-bootstrap"
 import { Link } from "gatsby"
 import "../styles/header.css"
 import "../styles/general-styles.css"
@@ -7,9 +7,11 @@ import "../styles/general-styles.css"
 export default function header() {
   return (
     <div>
-      <header className="sunxtreme-header">
-        
-      </header>
+      <Jumbotron className="page-header">
+        <Container>
+
+        </Container>
+      </Jumbotron>
     </div>
   )
 }
