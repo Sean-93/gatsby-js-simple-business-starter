@@ -23,7 +23,7 @@ export default function TermsOfUse() {
           <title>Terms of Use</title>
           <link rel="canonical" href="http://mysite.com/example" />
         </Helmet>
-        <Container className="card"></Container>
+        <Container className="card page-filler"></Container>
       </Layout>
     </div>
   )

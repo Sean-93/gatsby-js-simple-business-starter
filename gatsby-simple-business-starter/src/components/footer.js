@@ -1,5 +1,5 @@
 import React from "react"
-import { Row, Col, Container } from "react-bootstrap"
+import { Row, Col, Container, Card } from "react-bootstrap"
 import { Link } from "gatsby"
 import "../styles/footer.css"
 import "../styles/general-styles.css"
@@ -9,6 +9,7 @@ export default function Footer() {
     <div>
       <footer className="page-footer">
         <Container>
+          <Card>
           <Row>
             <Col>
               <ul>
@@ -25,6 +26,7 @@ export default function Footer() {
               </ul>
             </Col>
           </Row>
+          </Card>
         </Container>
       </footer>
     </div>

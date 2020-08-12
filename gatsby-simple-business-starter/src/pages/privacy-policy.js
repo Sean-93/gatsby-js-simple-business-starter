@@ -23,7 +23,7 @@ export default function PrivacyPolicy() {
           <title>Privacy Policy</title>
           <link rel="canonical" href="http://mysite.com/example" />
         </Helmet>
-        <Container className="card"></Container>
+        <Container className="card page-filler"></Container>
       </Layout>
     </div>
   )

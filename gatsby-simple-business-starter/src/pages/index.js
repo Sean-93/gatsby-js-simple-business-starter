@@ -24,7 +24,7 @@ export default function Home() {
           <title>GatsbyJS Business Starter</title>
           <link rel="canonical" href="http://mysite.com/example" />
         </Helmet>
-        <Container></Container>
+        <Container className="page-filler"></Container>
       </Layout>
     </div>
   )
