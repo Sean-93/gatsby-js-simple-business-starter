@@ -5,6 +5,12 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: '',
+    description: ''
+  },
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-webpack-bundle-analyzer'
+  ]
 }

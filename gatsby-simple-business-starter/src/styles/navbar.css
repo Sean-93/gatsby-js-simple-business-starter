@@ -1,9 +1,9 @@
 .navbar {
   background-image: linear-gradient(
-    rgba(80, 13, 13, .9),
-    rgb(18, 48, 18),
-    rgb(37, 30, 63),
-    rgb(71, 67, 52, .9)
+    rgba(65, 62, 62, 0.9),
+    rgb(48, 48, 48),
+    rgb(55, 55, 58),
+    rgba(41, 41, 41, 0.9)
   );
 }
 
@@ -40,4 +40,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 1vw;
+}
+@media only screen and (max-width: 1500px) {
+}
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 800px) {
+}
+@media only screen and (max-width: 600px) {
 }

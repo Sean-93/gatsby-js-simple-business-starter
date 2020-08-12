@@ -17,6 +17,8 @@
     "gatsby": "^2.23.10",
     "gatsby-cli": "^2.12.52",
     "gatsby-link": "^2.4.8",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-webpack-bundle-analyzer": "^1.0.5",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
@@ -29,7 +31,7 @@
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
- },
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Sean-93/gatsby-js-simple-business-starter"
